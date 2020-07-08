@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <title>My Resume</title>
+</head>
+<body>
+   <div class="title-div">
+      <div class="background" id="background">
+          <div class="title-cont">
+            <p style="color: gainsboro; margin: 0; font-size: 20px;">Hi There,I'm</p>
+            <h1 class="title">Deepan Vishwa</h1>
+            <div style="text-align: center;  margin-top: 10px;">
+                <h4 style="color:gainsboro; margin: 5px; font-size: 25px;" id="title">
+                    A 
+                </h4>
+                <button class="see_resume">See Resume</button>
+            </div>
+           
+          </div>
+             
+      </div>
+   </div>
+   <div class="specs"> 
+    <h1 class="specs_title">
+        I'M SPECIALIZED IN
+    </h1>
+    <p class="sub_specs">I'm a Front-end and Back-end Developer who focuses on writing clean, elegant and Efficient code. I have diverse set
+        of skills, Ranging from design, to HTML + CSS + JavaScript, all the way to PHP
+
+    </p>
+
+                <img class="img_spec" id='php-img' src='./img/job-description-php-developer-built-in.jpg' width="360px" height="200px" />
+                <h2 class='php_name'>PHP</h2>
+                <h1 class='php_prof'>7.5/10</h1>
+                
+                
+                <img class="img_spec" id='db_img' src='./img/2382335_58de.jpg' width="360px" height="200px" />
+                <h2 class='db_name'>DataBase</h2>
+                <h1 class='db_prof'>7/10</h1>
+                
+                
+                <img class="img_spec" id="wd_img" src='./img/Blog-Types-of-Web-Dev.jpg' width="360px" height="200px" />
+                <h2 class='wd_name'>Web Dev</h2>
+                <h1 class='wd_prof'>7/10</h1> 
+
+                <img class="img_spec" id='jq_img' src='./img/jquery+3.5-1586981812502.jpg' width="360px" height="200px" />
+                <h2 class='jq_name'>Jquery</h2>
+                <h1 class='jq_prof'>7/10</h1>
+                
+                
+                <img class="img_spec" id='aj_img' src='./img/1166306_84a1_3.jpg' width="360px" height="200px" />
+                <h2 class='aj_name'>Ajax</h2>
+                <h1 class='aj_prof'>7/10</h1>
+                
+                
+                <img class="img_spec" id="bp_img" src='./img/v5-new-logo.png' width="360px" height="200px" />
+                <h2 class='bp_name'>Bootsrap</h2>
+                <h1 class='bp_prof'>8/10</h1> 
+
+
+
+   </div>
+   <script>
+       var bg = document.getElementById('background');
+       window.addEventListener('scroll',function(){
+           bg.style.opacity = 1 - +window.pageYOffset/550+ ''
+           bg.style.top = +window.pageYOffset+ 'px'
+           bg.style.backgroundPositionY = - +window.pageYOffset/2+ 'px'
+       })
+   </script>
+</body>
+</html>

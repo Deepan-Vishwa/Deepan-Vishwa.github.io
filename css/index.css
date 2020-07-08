@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #000;
+}
+.title-div{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/wallpaper2you_373163.jpg);
+    background-size: cover;
+}
+.para{
+    color: white;
+    padding: 100px;
+}
+.title{
+margin: 0;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 60px;
+}
+.title-cont{ 
+ padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 540px;
+  padding-right: 540px;
+}
+.see_resume{
+    margin-top: 6px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.see_resume:hover{
+    background-color: rgb(155, 20, 20);
+    cursor: pointer;
+}
+.specs{
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+.specs_title{
+   
+    color: white;
+}
+.sub_specs{
+   margin-top: 20px;
+   margin-left: 60px;
+   margin-right: 60px;
+    color: white;
+    font-size: 20px;
+}
+.img_spec {
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+
+.php_name {
+    color: white;
+    position: absolute;
+    left: 14%;
+    top: 25%;
+  }
+  
+.php_prof {
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+  }
+  
+
+  .db_name {
+      color: white;
+    position: absolute;
+    left: 38%;
+    top: 25%;
+  }
+  
+  .db_prof {
+      color: white;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+  }
+  
+  .wd_name {
+      color: white;
+    position: absolute;
+    left: 64%;
+    top: 25%;
+  }
+  
+  .wd_prof {
+    color: white;
+    position: absolute;
+    left: 82%;
+    top: 50%;
+  }
+  .jq_name {
+    color: white;
+    position: absolute;
+    left: 14%;
+    top: 68%;
+  }
+  
+.jq_prof {
+    color: white;
+    position: absolute;
+    left: 31%;
+    top: 92%;
+  }
+  
+
+  .aj_name {
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 68%;
+  }
+  
+  .aj_prof {
+      color: white;
+    position: absolute;
+    left: 57%;
+    top: 92%;
+  }
+  
+  .bp_name {
+      color:black;
+    position: absolute;
+    left: 64%;
+    top: 68%;
+  }
+  
+  .bp_prof {
+    color:black;
+    position: absolute;
+    left: 82%;
+    top: 92%;
+  }
+  
