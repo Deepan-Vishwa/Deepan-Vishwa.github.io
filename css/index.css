@@ -35,10 +35,11 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 60px;
 }
 .title-cont{ 
- padding-top: 300px;
+  text-align: center;
+  padding-top: 300px;
   padding-bottom: 300px;
-  padding-left: 540px;
-  padding-right: 540px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .see_resume{
     margin-top: 6px;
@@ -68,8 +69,8 @@ font-size: 60px;
    margin-top: 20px;
    margin-left: 60px;
    margin-right: 60px;
-    color: white;
-    font-size: 20px;
+   color: white;
+  font-size: 20px;
 }
 .img_spec {
     border-radius: 15px;
