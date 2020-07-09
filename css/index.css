@@ -73,6 +73,7 @@ font-size: 60px;
   font-size: 20px;
 }
 .img_spec {
+  filter: brightness(80%);
     border-radius: 15px;
     margin-right: 20px;
     margin-top: 50px;
@@ -163,4 +164,124 @@ font-size: 60px;
     left: 82%;
     top: 92%;
   }
+  .slide{
+    margin-top: 30px;
+  }
+  .pro_title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+   
+  }
+  .pro_img{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .prev{
+    margin-bottom: 220px;
+    cursor: pointer;
+  }
+  .next{
+    margin-bottom: 220px;
+    cursor: pointer;
+  }
+  .main_img{
+    border-radius: 20px;
+  }
+  .pro_des{
+    color: white;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-right:300px;
+    
+  }
+  .pro_name{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .pro_content{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gainsboro;
+  }
+  .resume {
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    position: relative;
+  }
   
+  .img_container {
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+  }
+  
+ 
+  .contact_me {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: left;
+  }
+  .edu{
+    filter: brightness(60%);
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  .cx_name{
+
+    color: white;
+    position: absolute;
+    left: 13%;
+    top: 41%;
+    font-size: 40px;
+  }
+  .cx_prof{
+
+    color: white;
+    position: absolute;
+    left: 33%;
+    top: 74%;
+    font-size: 20px;
+  }
+
+  .cxii_name{
+    color: white;
+    position: absolute;
+    left: 39%;
+    top: 41%;
+    font-size: 40px;
+
+  }
+  .cxii_prof{
+    
+    color: white;
+    position: absolute;
+    left: 58%;
+    top: 74%;
+    font-size: 20px;
+  }
+
+  .cc_name{
+    color: white;
+    position: absolute;
+    left: 64%;
+    top: 41%;
+    font-size: 30px;
+
+  }
+  .cc_prof{
+   
+    color: white;
+    position: absolute;
+    left: 80%;
+    top: 74%;
+    font-size: 20px;
+  }
+ 
